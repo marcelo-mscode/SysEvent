@@ -29,12 +29,15 @@ public class AtuacaoResources {
 	
 	@GetMapping
 	public List<Atuacao> listarAll(){
+		System.out.println("Systema de teste");
 		return atuacaoRepository.findAll();
 	}
 	
 	@GetMapping("/{codigo}")
 	public Atuacao atuacao(@PathVariable Long codigo) {
 		System.out.println("Teste");
+		System.out.println("Teste");
+		
 		return atuacaoRepository.findOne(codigo);
 	}
 	
