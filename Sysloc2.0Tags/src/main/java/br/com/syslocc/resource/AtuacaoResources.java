@@ -37,6 +37,8 @@ public class AtuacaoResources {
 	public Atuacao atuacao(@PathVariable Long codigo) {
 		System.out.println("Teste");
 		System.out.println("Teste");
+		System.out.println("Outra atualização !!");
+		
 		
 		return atuacaoRepository.findOne(codigo);
 	}
