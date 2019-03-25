@@ -1,0 +1,4 @@
+CREATE TABLE atuacao(
+	codigo int(11) PRIMARY KEY AUTO_INCREMENT,
+	atuacao varchar(45) NOT NULL
+)ENGINE=InnoDB DEFAULT  CHARSET=utf8;
